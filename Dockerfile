@@ -11,4 +11,4 @@ ADD . /mesos-rpm-spec
 
 WORKDIR /mesos-rpm-spec
 
-RUN cd /mesos-rpm-spec && make -j 16 MESOS_VERSION=1.2.1
+RUN cd /mesos-rpm-spec && make MESOS_VERSION=1.2.1
