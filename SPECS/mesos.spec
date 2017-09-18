@@ -2,8 +2,8 @@
 %define data_dir	/var/lib/mesos
 %define run_dir		/var/run/mesos
 %define log_dir		/var/log/mesos
-%define mesos_user	mesos
-%define mesos_group	mesos
+%define mesos_user	root
+%define mesos_group	root
 
 Name:		mesos
 Version:	%{version}
